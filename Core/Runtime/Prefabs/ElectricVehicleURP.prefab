@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3087372993198466903}
   m_Layer: 0
-  m_Name: Electric Vehicle
+  m_Name: ElectricVehicleURP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,7 +101,7 @@ PrefabInstance:
     - target: {fileID: -6652725513331149018, guid: b97b7b6c9852c430ea0640cecbdc3dea, type: 3}
       propertyPath: m_Materials.Array.data[4]
       value: 
-      objectReference: {fileID: 2100000, guid: f321248049b9441c9bd807a9dbaab2fe, type: 2}
+      objectReference: {fileID: 2100000, guid: 4f2f5f33d9e3d42bc85c914f0b74f396, type: 2}
     - target: {fileID: -6652725513331149018, guid: b97b7b6c9852c430ea0640cecbdc3dea, type: 3}
       propertyPath: m_Materials.Array.data[5]
       value: 
@@ -118,6 +118,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 3c6b69e9284f9433d9f9873fa567a4cf, type: 2}
+    - target: {fileID: -747282429503993773, guid: b97b7b6c9852c430ea0640cecbdc3dea, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: -747282429503993773, guid: b97b7b6c9852c430ea0640cecbdc3dea, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
