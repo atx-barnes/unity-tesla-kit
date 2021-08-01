@@ -14,4 +14,16 @@
   "author": {
     "name": "Jackson Barnes"
   }
+  "samples": [
+     {
+       "displayName": "Standard",
+       "description": "Assets that show how to use the Tesla API with a pre-built client interface",
+       "path": "Examples~/Standard"
+     },
+     {
+       "displayName": "NextMind",
+       "description": "Assets for controlling a Tesla with your brain using the NextMind BCI headset",
+       "path": "Examples~/NextMind"
+     }
+   ]
 }
