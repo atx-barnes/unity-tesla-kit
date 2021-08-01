@@ -352,6 +352,22 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4887537483584793321, guid: 3a50198a1bc384b9c9df83ade9c01c18, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 4887537483584793321, guid: 3a50198a1bc384b9c9df83ade9c01c18, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4887537483584793321, guid: 3a50198a1bc384b9c9df83ade9c01c18, type: 3}
+      propertyPath: m_enableExtraPadding
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4887537483584793321, guid: 3a50198a1bc384b9c9df83ade9c01c18, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4887537484483033729, guid: 3a50198a1bc384b9c9df83ade9c01c18, type: 3}
       propertyPath: m_Name
       value: Password Text
@@ -489,6 +505,14 @@ PrefabInstance:
     - target: {fileID: 8488971454959602627, guid: ffdff4afcd27b420eb424b170b85e02c, type: 3}
       propertyPath: m_Name
       value: Login - Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 8488971455501687687, guid: ffdff4afcd27b420eb424b170b85e02c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 8488971455501687687, guid: ffdff4afcd27b420eb424b170b85e02c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffdff4afcd27b420eb424b170b85e02c, type: 3}
@@ -712,6 +736,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4887537483584793321, guid: 3a50198a1bc384b9c9df83ade9c01c18, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4887537483584793321, guid: 3a50198a1bc384b9c9df83ade9c01c18, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 4887537483584793321, guid: 3a50198a1bc384b9c9df83ade9c01c18, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4887537483584793321, guid: 3a50198a1bc384b9c9df83ade9c01c18, type: 3}
+      propertyPath: m_enableExtraPadding
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4887537483584793321, guid: 3a50198a1bc384b9c9df83ade9c01c18, type: 3}
+      propertyPath: m_enableWordWrapping
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4887537484483033729, guid: 3a50198a1bc384b9c9df83ade9c01c18, type: 3}
