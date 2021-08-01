@@ -1726,7 +1726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 433521169283423761, guid: 19e68195751904bfc81c7f3de44b02ec, type: 3}
       propertyPath: OnToggleOn.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: InterfaceManager, Assembly-CSharp
+      value: AdvancedTeslaClientInterfaceManager, TeslaKit.API.Examples
       objectReference: {fileID: 0}
     - target: {fileID: 433521169283423761, guid: 19e68195751904bfc81c7f3de44b02ec, type: 3}
       propertyPath: OnUserVehiclesRetrieved.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -1758,7 +1758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 433521169283423761, guid: 19e68195751904bfc81c7f3de44b02ec, type: 3}
       propertyPath: OnToggleOff.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: InterfaceManager, Assembly-CSharp
+      value: AdvancedTeslaClientInterfaceManager, TeslaKit.API.Examples
       objectReference: {fileID: 0}
     - target: {fileID: 433521169283423761, guid: 19e68195751904bfc81c7f3de44b02ec, type: 3}
       propertyPath: OnUserVehiclesRetrieved.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -1902,7 +1902,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 433521169283423761, guid: 19e68195751904bfc81c7f3de44b02ec, type: 3}
       propertyPath: OnToggleOn.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: ColorThemeScriptableObject, Assembly-CSharp
+      value: ColorThemeScriptableObject, TeslaKit.API.Examples
       objectReference: {fileID: 0}
     - target: {fileID: 433521169283423761, guid: 19e68195751904bfc81c7f3de44b02ec, type: 3}
       propertyPath: OnToggleOff.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1910,7 +1910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 433521169283423761, guid: 19e68195751904bfc81c7f3de44b02ec, type: 3}
       propertyPath: OnToggleOff.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: ColorThemeScriptableObject, Assembly-CSharp
+      value: ColorThemeScriptableObject, TeslaKit.API.Examples
       objectReference: {fileID: 0}
     - target: {fileID: 433521169283423761, guid: 19e68195751904bfc81c7f3de44b02ec, type: 3}
       propertyPath: OnRememberLogin.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
