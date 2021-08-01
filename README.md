@@ -80,6 +80,6 @@ https://docs.unity3d.com/Manual/upm-ui-giturl.html
 - Add support for raw json response ex.Task<Response<T>> Response.Raw
 - Handle sign in failed if possible either for incorrect password or don't have an account etc.
 - Add better and more robust exception handing
-- Implement an awaitable handle for all requests for users to create loading bars or loading wheels. Look at the firebase implementation of this callback function for downloading files.
+- Implement an awaitable handle for all requests for users to create loading bars or loading wheels.
 - Break up auth request method into smaller pieces
 - Fix Wake command response object not parsing from newtonsoft
