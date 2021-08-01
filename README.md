@@ -4,17 +4,18 @@
 
 ## Overview
 
-The Tesla API Unity/C# Wrapper gives you the ability to easily use the Tesla API from your Unity applications. You can make state or command requests to your vehicle and add more endpoints for future supported features of each Tesla model. This project also contains immersive examples for creating XR applications to control your Tesla using new digital mediums.
+TeslaKit Unity/C# Wrapper package gives you the ability to easily use the Tesla API from your Unity applications. You can make state or command requests to your vehicle and add more endpoints for future supported features of each Tesla model.
+
+Massive thanks to https://github.com/timdorr for creating documentation around the Tesla API. Check out the Unoffical Tesla API https://tesla-api.timdorr.com/ for more documentation on the exact endpoints and auth services that are being used in this plugin.
 
 ## Features
 
 - Tesla API Wrapper for Unity (OAuth2.0, List Vehicles, State / Command Requests, etc.)
-- 3D Electric Vehicle Model
-- Ability to Add Vehicle Endpoint Methods for Future Vehicle Software Updates.
-- Real-time Tesla Debug Console UI Example
+- 3D Vehicle Model
+- Ability to Add Vehicle Endpoint Methods for Future Vehicle Endpoint Updates.
+- Real-time Tesla Debug Console UI Examples
 - Universal Render Pipeline Supported
-- Task-based Asynchronous Pattern
-- Supported Result Objects
+- Async/await
 
 ## Versioning
 
@@ -48,6 +49,8 @@ public class Example : MonoBehaviour {
 
 ## Adding Vehicle Endpoints
 
+### Example Extension Method for Vehicle Command Endpoints
+
 ```csharp
 using Tesla.API.Core;
 using System.Threading.Tasks;
@@ -60,3 +63,23 @@ public static class VehicleExtensions
     }
 }
 ```
+
+### Creating Serializable Types for a New Vehicle State Endpoints
+
+If you create a endpoint extension method for a new type of vehicle state you will have to create a serializable type that matches exactly the structure of the incoming JSON from the API for the serializer to work. After you've created the seriablizable type pass it into the generic RequestAsync<T>() method as a type paramater.
+
+## Installation
+
+Follow the official Unity guide linked below to install this package using the package manager inside of Unity.
+https://docs.unity3d.com/Manual/upm-ui-giturl.html
+
+## Potential Improvements
+
+- Add the rest of API endpoints
+- Add refresh token method
+- Add support for raw json response ex.Task<Response<T>> Response.Raw
+- Handle sign in failed if possible either for incorrect password or don't have an account etc.
+- Add better and more robust exception handing
+- Implement an awaitable handle for all requests for users to create loading bars or loading wheels. Look at the firebase implementation of this callback function for downloading files.
+- Break up auth request method into smaller pieces
+- Fix Wake command response object not parsing from newtonsoft
