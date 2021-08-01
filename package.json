@@ -1,0 +1,17 @@
+{
+  "name": "com.tesla.api.wrapper",
+  "version": "1.0.0",
+  "displayName": "TeslaKit",
+  "description": "The Tesla API Unity/C# Wrapper gives you the ability to easily use the Tesla API from your Unity applications. You can make state or command requests to your vehicle and add more endpoints for future supported features of each Tesla model. This project also contains immersive examples for creating XR applications to control your Tesla using new digital mediums.",
+  "unity": "2020.2",
+  "unityRelease": "1f1",
+    "dependencies": {
+        "jillejr.newtonsoft.json-for-unity": "https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git#12.0.302",
+        "com.unity.textmeshpro": "3.0.1"
+    },
+ "keywords": [
+    "API Wrapper"],
+  "author": {
+    "name": "Jackson Barnes"
+  }
+}
