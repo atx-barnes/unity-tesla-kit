@@ -1,6 +1,6 @@
 # Tesla API Unity/C# Wrapper
 
-![Examples/Images/ConsoleMock.png](Examples/Images/ConsoleMock.png)
+![Samples~/Standard/Images/ConsoleMock.png](Samples~/Standard/Images/ConsoleMock.png)
 
 ## Overview
 
