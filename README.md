@@ -83,3 +83,4 @@ https://docs.unity3d.com/Manual/upm-ui-giturl.html
 - Implement an awaitable handle for all requests for users to create loading bars or loading wheels.
 - Break up auth request method into smaller pieces
 - Fix Wake command response object not parsing from newtonsoft
+- Add Neuralink support 🤷‍♂️
