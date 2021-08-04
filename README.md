@@ -11,11 +11,12 @@ Massive thanks to https://github.com/timdorr for creating documentation around t
 ## Features
 
 - Tesla API Wrapper for Unity (OAuth2.0, List Vehicles, State / Command Requests, etc.)
-- 3D Vehicle Model
+- Nextmind Brain-Computer Interface Support for Mind-Control of Tesla Vehicle; Neuralink Support TDB
+- 3D Vehicle of Tesla Model 3
 - Ability to Add Vehicle Endpoint Methods for Future Vehicle Endpoint Updates.
-- Real-time Tesla Debug Console UI Examples
+- Real-time Tesla Debug Console UI in Examples
 - Universal Render Pipeline Supported
-- Async/await
+- Async/await Pattern for Http Vehicle Requests
 
 ## Versioning
 
