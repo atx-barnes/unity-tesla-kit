@@ -1460,6 +1460,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 67589439414401678, guid: ad7ee9986d99044d0856196d2df46a12, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 260787518220866353, guid: ad7ee9986d99044d0856196d2df46a12, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -1555,6 +1559,14 @@ PrefabInstance:
     - target: {fileID: 3265729975357307111, guid: ad7ee9986d99044d0856196d2df46a12, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060627963545062408, guid: ad7ee9986d99044d0856196d2df46a12, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6060627963545062408, guid: ad7ee9986d99044d0856196d2df46a12, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7953897724832490434, guid: ad7ee9986d99044d0856196d2df46a12, type: 3}
       propertyPath: m_StaticEditorFlags
