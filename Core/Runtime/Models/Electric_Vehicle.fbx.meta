@@ -17,6 +17,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Disks
+    second: {fileID: 2100000, guid: c185c3c17616948a19fac559703b1b15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Hub_Caps
     second: {fileID: 2100000, guid: 165e88e3e28fc4666a6583528359ba58, type: 2}
   - first:
@@ -54,6 +59,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Windows
     second: {fileID: 2100000, guid: 9ac9ab28c76bd4b139bbff172e9cb315, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default_material
+    second: {fileID: 2100000, guid: 9054058bbf41041048b12216457ae0a4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
